@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Ticket Hub- buy your tickets for concerts</title>
+    <link rel="stylesheet" type="text/css" href="buy.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <li>
+            <a href="index.html">Home</a>
+           </li>
+           <li>
+            <a href="buy.html">Buy</a>
+           </li>
+           <li>
+            <a href="contact.html">Contact</a>
+           </li>
+           <li>
+            <a href="about.html">About</a>
+           </li>
+        </ul>
+    </nav>
+    <section class="tours">
+            <div class="main-detail">
+                <div class="black-detail">
+                    <h1>TOUR DATES</h1>
+                    <p>Remember To Book Your Tickets!</p>
+                </div>
+                <div class="input">
+                    <input type="text" name="" id="sep" placeholder="September" disabled> 
+                    <button class="sold">Sold Out</button><br>
+                    <input type="text" name="" id="oct" placeholder="October" disabled>
+                    <button class="sold">Sold Out</button><br>
+                    <input type="text" name="" id="nov" placeholder="November" disabled>
+                    <button class="avail">Available</button>
+                </div>
+                <div class="tour-ticket-container">
+                    <div class="tour-ticket">
+                        <img src="newyork.jpg" alt="" width="250px" height="250px">
+                        <h4>New York</h4>
+                        <p>Fri 27 Nov 2026</p>
+                        <b>Experience the energy of New York City with breathtaking views.</b>
+                        <button onclick="submitForm(event)">Buy Tickets</button>
+                    </div>
+                    <div class="tour-ticket">
+                        <img src="paris.jpg" alt="" width="250px" height="250px">
+                        <h4>Paris</h4>
+                        <p>Sat 28 Nov 2026</p>
+                        <b>Discover the beauty of Paris with its romantic streets.</b>
+                        <button  onclick="submitForm(event)">Buy Tickets</button>
+                    </div>
+                    <div class="tour-ticket">
+                        <img src="sanfran.jpg" alt="" width="250px" height="250px">
+                        <h4>San Francisco</h4>
+                        <p>Sun 29 Nov 2026</p>
+                        <b>Explore the San Franscisco and enjoy Golden Gate Bridge.</b>
+                        <button  onclick="submitForm(event)">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="buy.js"></script>
+</body>
+</html>
